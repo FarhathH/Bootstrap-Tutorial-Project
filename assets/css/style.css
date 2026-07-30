@@ -17,11 +17,9 @@ body{
 #hero{
     background-image: url("../images/background.webp");
     background-color: #dbdcde; /*light grey*/
+    background-size: cover;
     background-position: 50% 70%;
-    padding-left: 7%;
-    padding-right:7%;
-    padding-bottom: 5%;
-    padding-top: 5%;
+    padding:5% 7%;
     min-height: 500px;
 }
 
