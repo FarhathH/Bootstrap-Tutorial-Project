@@ -23,6 +23,14 @@ body{
     min-height: 500px;
 }
 
+/*Media queries*/
+@media screen and (min-height:1200px) {
+    /*Fixes issues of cards being too tall on xl screens*/
+    #portfolio .card-text{
+        min-height:auto;
+    }
+}
+
 h1, h2{
     font-family: "DM Serif Display", serif;
     color: #184f63; /*dark blue*/
