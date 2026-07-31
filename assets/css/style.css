@@ -43,7 +43,7 @@ h1, h2{
     font-size: 1.2rem;
 }
 
-#portfolio a:hover{
+#portfolio .btn-outline-secondary:hover{
     background-color: #1f7798;
 }
 
